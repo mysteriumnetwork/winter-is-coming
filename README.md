@@ -1,30 +1,30 @@
 # Game "Winter is coming"
 
-Hey, Backend developer, can You build Game Engine?
+Hey, Backend developer, we'd like you to build a simple game engine?
 
 ## The game:
-- There is a board of 10x30 cells (like chess board), one side of the broad has Zombie, another side has Wall with Archer on it.
+- There is a board of 10x30 cells (like a chess board), one side of the broad has a Zombie, another side has The Wall with an Archer on it.
 - Zombie is walking through the board, aiming to reach The Wall
-- Archer is trying to shoot walking Zombie from The Wall
+- Archer is trying to shoot the walking Zombie from The Wall
 - Zombie dies or reaches The Wall
 
 **Destiny of corrupted Westeros is your hands!**
 
 ## Requirements:
-Build Server which is able to establish bidirectional communication channel with Game Participant (Client)
+Build Server which is able to establish bidirectional communication channel with a Game Participant (Client)
 
-- Your friends can easily launch Server on threir machines
-- You can connect to your friend's Server and play from your home
-- Dont create Client yet, your chosen protocol should be checkable (telnet, curl, Postman etc.)
+- Your friends can easily launch a server on their machines
+- You can connect to your friend's server and play from your home
+- Dont create a Client yet, your chosen protocol should be changeable (telnet, curl, Postman etc.)
 - Client can start a game via communication channel
-- Server announces Zombie’s coordinates to communication channel every 2 seconds
-- Client sends coordinates of Archer's shoot
+- Server announces Zombie’s coordinates to through communication channel every 2 seconds
+- Client sends coordinates of the Archer's shot
 
 Task difficulty is for 1-2 days
-- Choose tool for problem solving
-- Choose technology/solution/library for bidirectional communication channel
-- Solve just problems scoped in requirements
-- Share Clean and readable code on VCS and send a link to jobs@mysterium.network
+- Choose a tool for problem solving
+- Choose a technology/solution/library for the bidirectional communication channel
+- Only solve the problems scoped in the requirements
+- Share clean and readable code on VCS and send a link to jobs@mysterium.network
 
 ## Communication channel example
 ```
