@@ -1,19 +1,45 @@
-Technical task “Winter is coming”
+# Game "Winter is coming"
 
-Build Game Engine (Server), which is able to establish bidirectional communication channel with Game Participant (Client).
+Hey, Backend developer, can You build Game Engine?
 
-The game:
-- There is a board of 10x30 cells (like chess board), one side of the broad has Zombie army, another has Wall with Archers on it.
-- Zombie Army sends one attacker towards The Wall and Zombie is aiming is to reach The Wall
-- Archers are trying to shoot Zombie from The Wall
-- If Zombie dies or reaches The Wall, new Zombie starts to walk thru a board
+## The game:
+- There is a board of 10x30 cells (like chess board), one side of the broad has Zombie, another side has Wall with Archer on it.
+- Zombie is walking through the board, aiming to reach The Wall
+- Archer is trying to shoot walking Zombie from The Wall
+- Zombie dies or reaches The Wall
 
-Game logic:
-- If Game Participant joins to Game Engine, new board is created and Zombie rush is started for this Game Participant
-- Game Engine announces Zombie’s coordinates to communication channel every 2 seconds
-- Every 2 seconds Game Participant is allowed to send coordinates for Archer to shoot
-- Game Engine sends message if Zombie was killed, another message when Zombie reached the Wall
-- After 5 games Game Engine stops the game
- 
-Recommendations:
-- Don’t spend more than 2 days
+**Destiny of corrupted Westeros is your hands!**
+
+## Requirements:
+Build Server which is able to establish bidirectional communication channel with Game Participant (Client)
+
+- Your friends can easily launch Server on threir machines
+- You can connect to your friend's Server and play from your home
+- Dont create Client yet, your chosen protocol should be checkable (telnet, curl, Postman etc.)
+- Share code on some VCS and send a link to jobs@mysterium.network
+
+## Protocol example
+- Client can send request to communication channel to start a game
+```
+# e.g. request with Archer's name
+START john
+```
+
+- Server announces Zombie’s coordinates to communication channel every 2 seconds
+```
+WALK night-king 0 0
+WALK night-king 0 2
+WALK night-king 2 2
+WALK night-king 2 4
+WALK night-king 2 6
+...
+```
+
+- Client is allowed to send coordinates for Archer to shoot
+```
+# e.g. request with with Archer's coordinates
+SHOOT 0 0
+# e.g. response with Archer's result
+BOOM john 0
+BOOM john 1 night-king
+```
