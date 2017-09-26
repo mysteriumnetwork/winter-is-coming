@@ -1,6 +1,6 @@
 # Game "Winter is coming"
 
-Hey, Backend developer, we'd like you to build a simple game engine?
+Hey, Backend developer, we'd like you to build a simple game engine! :)
 
 ## The game:
 - There is a board of 10x30 cells (like a chess board), one side of the broad has a Zombie, another side has The Wall with an Archer on it.
