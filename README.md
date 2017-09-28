@@ -15,9 +15,9 @@ Build Server which is able to establish bidirectional communication channel wit
 
 - Your friends can easily launch a server on their machines
 - You can connect to your friend's server and play from your home
-- Dont create a Client yet, your chosen protocol should be changeable (telnet, curl, Postman etc.)
+- Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
 - Client can start a game via communication channel
-- Server announces Zombie’s coordinates to through communication channel every 2 seconds
+- Server announces Zombie’s coordinates to communication channel every 2 seconds
 - Client sends coordinates of the Archer's shot
 
 Task difficulty is for 1-2 days
