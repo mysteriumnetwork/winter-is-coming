@@ -8,7 +8,7 @@ Hey, Backend developer, we'd like you to build a simple game engine! :)
 - Archer is trying to shoot the walking Zombie from The Wall
 - Zombie dies or reaches The Wall
 
-**Destiny of corrupted Westeros is your hands!**
+**Destiny of corrupted Westeros is in your hands!**
 
 ## Requirements:
 Build Server which is able to establish bidirectional communication channel with a Game Participant (Client)
@@ -35,10 +35,10 @@ START john
 ```
 # Server announces coordinates
 WALK night-king 0 0
-WALK night-king 0 2
-WALK night-king 2 2
-WALK night-king 2 4
-WALK night-king 2 6
+WALK night-king 0 1
+WALK night-king 1 1
+WALK night-king 1 2
+WALK night-king 1 3
 ...
 ```
 
