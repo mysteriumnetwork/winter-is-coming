@@ -1,52 +1,21 @@
 # Game "Winter is coming"
 
-Hey, Backend developer, we'd like you to build a simple game engine! :)
+Hello there, brave knight, you managed to pass _The Narrow Sea_ so we welcome you to _The Seven Kingdoms_!
 
-## The game:
-- There is a board of 10x30 cells (like a chess board), one side of the broad has a Zombie, another side has The Wall with an Archer on it.
-- Zombie is walking through the board, aiming to reach The Wall
-- Archer is trying to shoot the walking Zombie from The Wall
-- Zombie dies or reaches The Wall
+**Samwell Tarly**: _"The White Walkers sleep beneath the ice for thousands of years. And when they wake up..."_\
+**You**: _"And when they wake up... what?"_\
+**Samwell Tarly**: _"I hope the Wall is high enough."_
 
-**Destiny of corrupted Westeros is in your hands!**
+## Game rules
+- There is a board of 10x30 cells (like a chess board), one side of the broad has a Zombie, another side has _The Wall_ with an Archer on it.
+- Zombie is walking through the board, aiming to reach _The Wall_
+- Archer is trying to shoot the walking _Zombie_ from _The Wall_
+- Zombie dies or reaches _The Wall_
 
-## Requirements:
-Build Server which is able to establish bidirectional communication channel with a Game Participant (Client)
+# Challenges
+Sam begs for your help, which challenge are You going to take?
+- Quest [Talk to Zombies](quests/Talk_to_Zombies.md) for those who control power of **Backend Engineering**
+- Quest [Zombie Hole Punching](quests/Zombie_Hole_Punching.md) for **Peer-to-Peer (P2P) Developers**
+- Quest [Secret Whispering](quests/Secret_Whispering.md) for **Network Protocol Developers** who knows data hiding spells
 
-- Your friends can easily launch a server on their machines
-- You can connect to your friend's server and play from your home
-- Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
-- Client can start a game via communication channel
-- Server announces Zombie’s coordinates to communication channel every 2 seconds
-- Client sends coordinates of the Archer's shot
-
-Task difficulty is for 1-2 days
-- Choose a tool for problem solving
-- Choose a technology/solution/library for the bidirectional communication channel
-- Demonstrate your most clean code with good readability
-- Only solve the problems scoped in the requirements
-- Share code on VCS and send a link to jobs@mysterium.network
-
-## Communication channel example
-```
-# Client send Archer's name
-START john
-```
-
-```
-# Server announces coordinates
-WALK night-king 0 0
-WALK night-king 0 1
-WALK night-king 1 1
-WALK night-king 1 2
-WALK night-king 1 3
-...
-```
-
-```
-# Client sends Archer's coordinates
-SHOOT 0 0
-# Server responds with Archer's result
-BOOM john 0
-BOOM john 1 night-king
-```
+**Destiny of corrupted _Westeros_ is in your hands!**
