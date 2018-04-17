@@ -13,7 +13,7 @@ Build a protocol, which encrypts IP packets.
 
 Task difficulty is for 1-2 days
 - Choose platform for problem solving
-- Choose your own technology (Golang, C++ preferred)
+- Choose your own technology (Golang or C++ are preferred)
 - Only solve the problems scoped in the requirements. Don't implement logic of Game engine
 - Share code on VCS and send a link to jobs@mysterium.network
 
