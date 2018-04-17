@@ -1,6 +1,6 @@
 # Game "Winter is coming"
 
-Hey, brave knight, You managed to pass _The Narrow Sea_, welcome to _Seven Kingdoms_!
+Hello the brave knight, you managed to pass _The Narrow Sea_, welcome to _Seven Kingdoms_!
 
 **Samwell Tarly**: _"The White Walkers sleep beneath the ice for thousands of years. And when they wake up..."_\
 **You**: _"And when they wake up... what?"_\
@@ -15,5 +15,6 @@ Hey, brave knight, You managed to pass _The Narrow Sea_, welcome to _Seven Kingd
 # Challenges
 Sam begs for your help, which challenge are You going to take?
 - Quest [Talk to Zombies](quests/Talk_to_Zombies.md) for those who control power of **Backend Engineering**
+- Quest [Zombie Hole Punching](quests/Zombie_Hole_Punching.md) for **Peer-to-Peer (P2P) Developers**
 
 **Destiny of corrupted _Westeros_ is in your hands!**
