@@ -23,8 +23,9 @@ Build Server which is able to establish bidirectional communication channel wit
 Task difficulty is for 1-2 days
 - Choose a tool for problem solving
 - Choose a technology/solution/library for the bidirectional communication channel
+- Demonstrate your most clean code with good readability
 - Only solve the problems scoped in the requirements
-- Share clean and readable code on VCS and send a link to jobs@mysterium.network
+- Share code on VCS and send a link to jobs@mysterium.network
 
 ## Communication channel example
 ```
