@@ -3,7 +3,7 @@
 Hey, Network Developer, we're challenging You to encrypt war messages!
 
 ## Requirements:
-Build protocol, which encrypts IP packets.
+Build a protocol, which encrypts IP packets.
 
 - Archers are fighting against zombies by [game rules](../README.md#game-rules)
 - But _The White Walker_ is sniffing Archer's shots and coordinating Zombie's movement

@@ -3,7 +3,7 @@
 Hey, P2P Developer, we're challenging You to punch a hole!
 
 ## Requirements:
-Build Server which is able to accept Client sessions behind NAT
+Build a Server which is able to accept Client sessions behind NAT
 
 - Your friends can easily launch a [Game server](../README.md#game-rules) on their home machines
 - You can connect to your friend's server and play from your home
@@ -22,7 +22,7 @@ Bonus points for:
 
 ## Example
 
-Server announces contact how to connect:
+Server announces a contact where to connect (means of announcement is yours to choose):
 ```
 ./server
 Game started. Players should join with './client SERVER_CONTACT'

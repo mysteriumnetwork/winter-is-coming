@@ -1,6 +1,6 @@
 # Game "Winter is coming"
 
-Hello the brave knight, you managed to pass _The Narrow Sea_, welcome to _Seven Kingdoms_!
+Hello there, brave knight, you managed to pass _The Narrow Sea_ so we welcome you to _The Seven Kingdoms_!
 
 **Samwell Tarly**: _"The White Walkers sleep beneath the ice for thousands of years. And when they wake up..."_\
 **You**: _"And when they wake up... what?"_\

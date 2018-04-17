@@ -3,7 +3,7 @@
 Hey, Backend Engineer, we'd like you to build a simple game engine! :)
 
 ## Requirements:
-Build Server which is able to establish bidirectional communication channel with a Game Participant (Client)
+Build a Server which is able to establish bidirectional communication channel with a Game Participant (Client)
 
 - [Game rules](../README.md#game-rules)
 - Your friends can easily launch a server on their machines
