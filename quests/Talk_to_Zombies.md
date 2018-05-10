@@ -14,9 +14,10 @@ Build a Server which is able to establish bidirectional communication channel wi
 - Client sends coordinates of the Archer's shot
 
 Task difficulty is for 1-2 days
-- Choose a tool for problem solving
-- Choose a technology/solution/library for the bidirectional communication channel
+- Choose a language for problem solving
+- Choose a solution/library for the bidirectional communication channel. Or implement any creative solution to solve this problem
 - Demonstrate your most clean code with good readability
+- Demonstrate creepy love for tests, it's totally ok
 - Only solve the problems scoped in the requirements
 - Share code on VCS and send a link to jobs@mysterium.network
 
