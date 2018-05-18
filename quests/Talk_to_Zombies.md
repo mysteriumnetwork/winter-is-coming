@@ -2,26 +2,29 @@
 
 Hey, Backend Engineer, we'd like you to build a simple game engine! :)
 
-## Requirements:
-Build a Server which is able to establish bidirectional communication channel with a Game Participant (Client)
+## Requirements
+Build a Server which hosts a [game](../README.md#game-rules) and game participant (Client) can play via bidirectional Communication Channel 
 
-- [Game rules](../README.md#game-rules)
-- Your friends can easily launch a server on their machines
-- You can connect to your friend's server and play from your home
-- Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
-- Client can start a game via communication channel
-- Server announces Zombie’s coordinates to communication channel every 2 seconds
-- Client sends coordinates of the Archer's shot
-
-Task difficulty is for 1-2 days
-- Choose a language for problem solving
-- Choose a solution/library for the bidirectional communication channel. Or implement any creative solution to solve this problem
-- Demonstrate your most clean code with good readability
-- Demonstrate creepy love for tests, it's totally ok
-- Only solve the problems scoped in the requirements
+- Fulfill specification - implement game engine by [Communication Channel specification](#communication-channel-specification) 
+- Concentration - only solve the problems scoped in the requirements (task difficulty is max for 1-2 days)
+- Language agnostic - choose a language for this problem solving (we love Golang or any other it's readable code)
+- Clean code - demonstrate your most readable code
+- Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
+- Testing - demonstrate creepy love for tests, it's totally ok
+- We can easily start your game Server and play
 - Share code on VCS and send a link to jobs@mysterium.network
 
-## Communication channel example
+### Communication Channel specification
+- As a Client I can join and interact with Server through Communication Channel
+- Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
+and start a game after joining
+- As a Client I can start a game
+- When game is started Server creates new board and spawns new zombie
+- When game is started Server announces Zombie’s coordinates every 2 seconds
+- As a Client I can send coordinates of the Archer's shot
+- As a Client I would like to know if my shot was accurate
+
+### Communication Channel example
 ```
 # Client send Archer's name
 START john
@@ -44,3 +47,10 @@ SHOOT 0 0
 BOOM john 0
 BOOM john 1 night-king
 ```
+
+### Bonus points for (only when requirements fulfilled)
+- Parallelism problem - unlimited Clients can play simultaneous games at once
+- Concurrency problem - several Clients can join same game, first good shoot wins
+- Cross-platform problem - your friends are able to host a Server on their personal machines
+- Peer-to-peer problem - You can connect to your friend's server and play from your home
+- Critical thinking - pick a solution/library for bidirectional Communication Channel so that it fits game requirements. Or implement any creative solution for messaging
