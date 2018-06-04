@@ -1,0 +1,24 @@
+# Wall Orbuculum. Game "Winter is coming"
+
+Hey, Application Engineer, we would like you to create User Interface for a game :)
+
+## Requirements
+Imagine You have only hipster friends, whichuse only Mac Books and iPhones and they are so picky about native user experience.
+But they heard about this awesome [game](../README.md#game-rules) and want to try it out.
+
+- Fulfill specification - implement desktop or mobile application by [UI specification](#ui-specification) 
+- Integrate to Server - implement Client by [Communication Channel specification](Talk_to_Zombies.md#communication-channel-specification) 
+- Concentration - only solve the problems scoped in the requirements (task difficulty is max for 1-2 days)
+- Technology agnostic - choose a technology for this problem solving (we love any readable code)
+- Clean code - demonstrate your most readable code
+- Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
+- Testing - demonstrate creepy love for tests, it's totally ok
+- We can easily run your application and try it out
+- Share code on VCS and send a link to jobs@mysterium.network
+
+### UI specification
+- As a Player I can connect to game Server at `winter-is-coming.mysterium.network` on port `8765`
+- As a Player I can start new game
+- As a Player I can see how zombie moving around game field
+- As a Player I can shoot zombie
+- As a Player I can understand if I hit zombie

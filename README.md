@@ -15,6 +15,7 @@ Hello there, brave knight, you managed to pass _The Narrow Sea_ so we welcome yo
 # Challenges
 Sam begs for your help, which challenge are You going to take?
 - Quest [Talk to Zombies](quests/Talk_to_Zombies.md) for those who control power of **Backend Engineering**
+- Quest [Wall Orbuculum](quests/Wall_Orbuculum.md) for **Application Engineers** who knows native and cross-platform spells for desktop or mobile
 - Quest [Zombie Hole Punching](quests/Zombie_Hole_Punching.md) for **Peer-to-Peer (P2P) Developers**
 - Quest [Secret Whispering](quests/Secret_Whispering.md) for **Network Protocol Developers** who knows data hiding spells
 
