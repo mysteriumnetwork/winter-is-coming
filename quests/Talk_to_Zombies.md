@@ -19,31 +19,40 @@ Build a Server which hosts a [game](../README.md#game-rules) and game participan
 - Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
 and start a game after joining
 - As a Client I can start a game
-- When game is started Server creates new board and spawns new zombie
+- When game is started Server creates new board and spawns new Zombie
 - When game is started Server announces Zombie’s coordinates every 2 seconds
-- As a Client I can send coordinates of the Archer's shot
+- As a Client I can send coordinates of the my shot
 - As a Client I would like to know if my shot was accurate
 
 ### Communication Channel example
 ```
-# Client sends Archer's name
+# Client starts new game for his Player:
+START {player}
 START john
 ```
 
 ```
-# Server announces coordinates
+# Server announces Zombie's coordinates as he moves:
+WALK {zombie} {x} {y}
 WALK night-king 0 0
 WALK night-king 0 1
 WALK night-king 1 1
 WALK night-king 1 2
 WALK night-king 1 3
 ...
+...
+# until moving stops
 ```
 
 ```
-# Client sends Archer's coordinates
-SHOOT 0 0
-# Server responds with Archer's result
+# Client sends Player's shoot coordinates
+SHOOT {x} {y}
+SHOOT 1 3
+```
+
+```
+# Server responds with shot's result
+BOOM {player} {points} [{zombie}]
 BOOM john 0
 BOOM john 1 night-king
 ```
