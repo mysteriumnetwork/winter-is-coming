@@ -7,7 +7,7 @@ Build a Server which hosts a [game](../README.md#game-rules) and game participan
 
 - Fulfill specification - implement game engine by [Communication Channel specification](#communication-channel-specification) 
 - Concentration - only solve the problems scoped in the requirements (task difficulty is max for 1-2 days)
-- Language agnostic - choose a language for this problem solving (we love Golang or any other it's readable code)
+- Language agnostic - choose a language for this problem solving (we love Golang or any readable code)
 - Clean code - demonstrate your most readable code
 - Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
 - Testing - demonstrate creepy love for tests, it's totally ok
@@ -26,7 +26,7 @@ and start a game after joining
 
 ### Communication Channel example
 ```
-# Client send Archer's name
+# Client sends Archer's name
 START john
 ```
 
