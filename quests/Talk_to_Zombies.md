@@ -6,7 +6,7 @@ Hey, Backend Engineer, we'd like you to build a simple game engine! :)
 Build a Server which hosts a [game](../README.md#game-rules) and game participant (Client) can play via bidirectional Communication Channel 
 
 - Fulfill specification - implement game engine by [Communication Channel specification](#communication-channel-specification) 
-- Concentration - only solve the problems scoped in the requirements (task difficulty is max for 1-2 days)
+- Concentration - only solve the requirements and don't spent more than 1 workday
 - Language agnostic - choose a language for this problem solving (we love Golang or any readable code)
 - Clean code - demonstrate your most readable code
 - Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)

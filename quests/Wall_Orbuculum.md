@@ -3,12 +3,12 @@
 Hey, Application Engineer, we would like you to create User Interface for a game :)
 
 ## Requirements
-Imagine You have only hipster friends, whichuse only Mac Books and iPhones and they are so picky about native user experience.
+Let’s say you have some hipster friends who only use Mac Books and iPhones and are very picky about native user experience.
 But they heard about this awesome [game](../README.md#game-rules) and want to try it out.
 
 - Fulfill specification - implement desktop or mobile application by [UI specification](#ui-specification) 
 - Integrate to Server - implement Client by [Communication Channel specification](Talk_to_Zombies.md#communication-channel-specification) 
-- Concentration - only solve the problems scoped in the requirements (task difficulty is max for 1-2 days)
+- Concentration - only solve the requirements and don't spent more than 1 workday
 - Technology agnostic - choose a technology for this problem solving (we love any readable code)
 - Clean code - demonstrate your most readable code
 - Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
