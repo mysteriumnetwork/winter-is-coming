@@ -61,5 +61,5 @@ BOOM john 1 night-king
 - Parallelism problem - unlimited Clients can play simultaneous games at once
 - Concurrency problem - several Clients can join same game, first good shoot wins
 - Cross-platform problem - your friends are able to host a Server on their personal machines
-- Peer-to-peer problem - You can connect to your friend's server and play from your home
+- Peer-to-peer problem - you can connect to your friend's server and play from your home
 - Critical thinking - pick a solution/library for bidirectional Communication Channel so that it fits game requirements. Or implement any creative solution for messaging

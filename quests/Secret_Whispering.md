@@ -1,6 +1,6 @@
 # Secret Whispering. Game "Winter is coming"
 
-Hey, Network Developer, we're challenging You to encrypt war messages!
+Hey, Network Developer, we're challenging you to encrypt war messages!
 
 ## Requirements:
 Build a protocol, which encrypts IP packets.

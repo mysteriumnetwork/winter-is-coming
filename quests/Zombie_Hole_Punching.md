@@ -1,6 +1,6 @@
 # Zombie Hole Punching. Game "Winter is coming"
 
-Hey, P2P Developer, we're challenging You to punch a hole!
+Hey, P2P Developer, we're challenging you to punch a hole!
 
 ## Requirements:
 Build a Server which is able to accept Client sessions behind NAT
