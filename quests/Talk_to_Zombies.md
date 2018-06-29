@@ -10,7 +10,7 @@ Build a Server which hosts a [game](../README.md#game-rules) and game participan
 - Language agnostic - choose a language for this problem solving (we love Golang or any readable code)
 - Clean code - demonstrate your most readable code
 - Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
-- Testing - demonstrate creepy love for tests, it's totally ok
+- Testing - demonstrate testing skills by writing automated tests for your solution (creepy love for tests is totally fine)
 - We can easily start your game Server and play
 - Share code on VCS and send a link to jobs@mysterium.network
 
