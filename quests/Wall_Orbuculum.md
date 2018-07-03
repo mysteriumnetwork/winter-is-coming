@@ -12,7 +12,7 @@ But they heard about this awesome [game](../README.md#game-rules) and want to tr
 - Technology agnostic - choose a technology for this problem solving (we love any readable code)
 - Clean code - demonstrate your most readable code
 - Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
-- Testing - demonstrate creepy love for tests, it's totally ok
+- Testing - demonstrate testing skills by writing automated tests for your solution (creepy love for tests is totally fine)
 - We can easily run your application and try it out
 - Share code on VCS and send a link to jobs@mysterium.network
 
