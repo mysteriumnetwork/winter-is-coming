@@ -1,6 +1,6 @@
 # Wall Orbuculum. Game "Winter is coming"
 
-Hey, Application Engineer, we would like you to create User Interface for a game :)
+Hey, Application Engineer, we would like you to create game client for existing game server :)
 
 ## Requirements
 Let’s say you have some hipster friends who only use Mac Books and iPhones and are very picky about native user experience.
