@@ -1,3 +1,5 @@
+![cover](https://raw.githubusercontent.com/mysteriumnetwork/winter-is-coming/master/assets/cover.jpg)
+
 # Game "Winter is coming"
 
 Hello there, brave knight, you managed to pass _The Narrow Sea_ so we welcome you to _The Seven Kingdoms_!
