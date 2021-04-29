@@ -6,17 +6,17 @@ Hey, Backend Engineer, we'd like you to build a simple game engine! :)
 Build a Server which hosts a [game](../README.md#game-rules) and game participant (Client) can play via bidirectional Communication Channel 
 
 - Fulfill specification - implement game engine by [Communication Channel specification](#communication-channel-specification) 
-- Concentration - only solve the requirements and don't spent more than 1 workday
+- Concentration - only solve the requirements and don't spend more than 1 workday
 - Language agnostic - choose a language for this problem solving (we love Golang or any readable code)
 - Clean code - demonstrate your most readable code
-- Design patterns - demonstrate your design skills (SOLID, KISS, DRY etc.)
+- Design patterns - demonstrate your design skills (SOLID, KISS, DRY, etc.)
 - Testing - demonstrate testing skills by writing automated tests for your solution (creepy love for tests is totally fine)
 - We can easily start your game Server and play
 - Share code on VCS and send a link to jobs@mysterium.network
 
 ### Communication Channel specification
 - As a Client I can join and interact with Server through Communication Channel
-- Dont create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
+- Don't create a Client yet. Anyway your chosen protocol will be testable with *telnet*, *curl*, *Postman* etc.
 and start a game after joining
 - As a Client I can start a game
 - When game is started Server creates new board and spawns new Zombie
@@ -59,7 +59,7 @@ BOOM john 1 night-king
 
 ### Bonus points for (only when requirements fulfilled)
 - Parallelism problem - unlimited Clients can play simultaneous games at once
-- Concurrency problem - several Clients can join same game, first good shoot wins
+- Concurrency problem - several Clients can join same game, first good shot wins
 - Cross-platform problem - your friends are able to host a Server on their personal machines
 - Peer-to-peer problem - you can connect to your friend's server and play from your home
 - Critical thinking - pick a solution/library for bidirectional Communication Channel so that it fits game requirements. Or implement any creative solution for messaging
